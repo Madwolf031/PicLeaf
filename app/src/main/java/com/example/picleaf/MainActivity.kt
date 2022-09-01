@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
         resources.assets.open(mSamplePath).use{
             mBitmap = BitmapFactory.decodeStream(it)
-            mBitmap = Bitmap.createScaledBitmap(mInputSize,mInputSize,true)
+            mBitmap = Bitmap.createScaledBitmap(mInputSize,mInputSizetrue)
             mPhotoImageView.setImageBitmap(mBitmap)
         }
         bottom_nav.setActiveItem(0)
