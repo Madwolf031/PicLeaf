@@ -29,7 +29,6 @@
         android:fitsSystemWindows="true"
         android:background="@color/teal_700"
         android:elevation="1dp"
-
         app:itemIconpadding="10dp"
         app:itemIconTint="@android:color/white"
         app:itemTextColor="@android:color/white"
