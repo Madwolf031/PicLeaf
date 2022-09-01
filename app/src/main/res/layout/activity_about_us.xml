@@ -30,18 +30,18 @@
                 <ImageView
                     android:layout_width="195dp"
                     android:layout_height="125dp"
-                    android:src="@mipmap/ic_launcher"
                     android:layout_margin="20dp"
-                    />
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="193dp"
                     android:layout_height="96dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="112dp"
                     android:gravity="center"
                     android:text="PicLeaf"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
-                    android:layout_marginTop="112dp"
-                    android:layout_marginStart="20dp"/>
+                    android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
